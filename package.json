@@ -1,0 +1,34 @@
+{
+  "name": "vitest-bug-report",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "@sveltestack/svelte-query": "latest",
+    "@tiptap/core": "latest",
+    "@tiptap/extension-document": "latest",
+    "@tiptap/extension-paragraph": "latest",
+    "@tiptap/extension-text": "latest",
+    "@tiptap/html": "latest",
+    "@tsconfig/svelte": "latest",
+    "happy-dom": "latest",
+    "svelte": "latest",
+    "svelte-check": "latest",
+    "svelte-preprocess": "latest",
+    "tslib": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test"
+  }
+}
